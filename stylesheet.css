@@ -1,0 +1,159 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&family=Macondo&display=swap');
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #3a75af;
+    --bs-dark: #212529;
+ 
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  }
+
+p{
+    font-family: 'Lexend', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lexend', sans-serif;
+}
+.navbar-brand {margin: 0 30px;padding: 0;}
+.navbar-brand img {max-height: 85px;}
+nav.navbar .navbar-nav li a {
+  padding: 0 20px;
+  line-height: 80px;
+  color: rgb(243, 245, 244);
+  font-family: 'Lexend', sans-serif;
+
+}
+.collapse .navbar-nav a:hover{
+    color: #416eeb80;
+}
+.container{
+    margin-top: 6%;
+}
+#about h5{
+    margin-top:4%;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+
+}
+.container .button{
+    font-family: 'Lexend', sans-serif;
+   height: 15%;
+background-color: rgba(0, 0, 0, 0.911);
+   justify-items: center;
+   text-align: center;
+   margin-left: 30%;
+   border-radius: 12px;
+   font-weight: 500;
+   border-color: rgb(23, 2, 61);
+   color: aliceblue;
+}
+
+.container .button:hover{
+    width: 120px;
+    height: max-content;
+    background-color: rgba(0, 0, 255, 0.438);
+}
+#service h5{
+    margin-top:6%;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+
+}
+
+.service .container{
+    margin-top: 6%;
+}
+.service .container .col h4{
+    margin-top: 5%; 
+}
+
+#Menu h5{
+    margin-top:6%;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+}
+.OurMenu{
+background-image: url(image/bac1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#product h5{
+    margin-top:6%;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+}
+#team h5{
+    margin-top:6%;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+}
+.OurTeam{
+    background-image: url(image/bac2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+@keyframes zoom {
+    3%{
+       /* transform: rotate(5deg);*/
+       transform: scale(.5,.5);
+    }
+}
+
+.OurTeam .container .row .col img{
+    animation-name:zoom;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: initial;  
+}
+.OurTeam .container .row .col .icon i:hover{
+background-color: #0d6dfd5e;
+}
+#blogs h5{
+    margin-top:6%;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+}
+#contact h5{
+    margin-top:6%;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+}
+.footer{
+    margin-top: 5%;
+}
